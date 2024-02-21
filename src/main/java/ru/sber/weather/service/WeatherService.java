@@ -3,7 +3,7 @@ package ru.sber.weather.service;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import ru.sber.weather.dto.WeatherResponse;
-import ru.sber.weather.mappep.WeatherResponseMapper;
+import ru.sber.weather.mapper.WeatherResponseMapper;
 
 @Service
 public class WeatherService {

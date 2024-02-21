@@ -17,7 +17,7 @@ public class InfoController {
     }
 
     @GetMapping("/get")
-    public void  getWeather() {
-        System.out.println(weatherService.calculateWeatherResponse());
+    public String getWeather() {
+        return weatherService.calculateWeatherResponse().toString();
     }
 }
